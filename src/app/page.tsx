@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Menu from "@/app/Menu";
 import Search from "@/app/Search";
+import Gallery from "@/app/Gallery";
 
 export default function Home() {
   return (
@@ -10,6 +11,8 @@ export default function Home() {
           <Menu />
 
           <Search />
+
+          <Gallery />
         </div>
       </div>
     </>
